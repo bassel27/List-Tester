@@ -8,10 +8,10 @@
 
   From the directory containing all source files, compile the test
   class (and all dependent classes) with the command: 
-  $ javac *.java
+  `$ javac *.java`
 
   Run the compiled SetTester class with the command:
-  $ java ListTester
+  `$ java ListTester`
 
   Console output will report which tests IUDoubleLinkedList passed or failed.
 
@@ -31,7 +31,7 @@
   all its methods. 
 
 
- # Testing
+ # Test-Driven Development
 
   ListeTester was the main testing mechanism of this program. ListTester's 
   test cases include all methods that can make a change to the list, 
