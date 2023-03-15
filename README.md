@@ -1,10 +1,10 @@
- # Overview
+ # List-Tester
 
   This program implements double-linked list based on the IndexedUnsortedList 
   interface and tests it to confirm it is valid and working.
 
 
- # Compiling and Running
+ ## Compiling and Running
 
   From the directory containing all source files, compile the test
   class (and all dependent classes) with the command: 
@@ -16,7 +16,7 @@
   Console output will report which tests IUDoubleLinkedList passed or failed.
 
 
- # Program Design and Important Concepts
+ ## Program Design and Important Concepts
 
   IUDoubleLinkedList implements IndexedUnsortedList interface which is 
   an interface for an iterable, indexed, unsorted list ADT. IUDoubleLinkedList
@@ -31,7 +31,7 @@
   all its methods. 
 
 
- # Test-Driven Development
+ ## Test-Driven Development
 
   ListeTester was the main testing mechanism of this program. ListTester's 
   test cases include all methods that can make a change to the list, 
